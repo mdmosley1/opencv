@@ -1,0 +1,3 @@
+/home/mmosley/Documents/opencv/CMakeFiles/edit_cache.dir
+/home/mmosley/Documents/opencv/CMakeFiles/rebuild_cache.dir
+/home/mmosley/Documents/opencv/CMakeFiles/DisplayImage.dir
