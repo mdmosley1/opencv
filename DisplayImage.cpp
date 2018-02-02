@@ -9,6 +9,7 @@ int main(int argc, char** argv )
     if ( argc != 2 )
     {
         printf("Usage: DisplayImage.out <Image_Path>\n");
+        printf("Here is another line!");
         return -1;
     }
 
@@ -21,7 +22,7 @@ int main(int argc, char** argv )
         return -1;
     }
     namedWindow("Display Image", WINDOW_AUTOSIZE );
-    imshow("Display Image", image);``
+    imshow("Display Image", image);
 
     waitKey(0);
 
