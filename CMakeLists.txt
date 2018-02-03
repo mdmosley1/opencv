@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project( DisplayImage )
+project( OpenCV_Project )
 find_package( OpenCV REQUIRED )
 
 add_executable( DisplayImage DisplayImage.cpp )
