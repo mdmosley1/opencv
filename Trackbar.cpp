@@ -11,7 +11,7 @@ cv::VideoCapture g_cap;
 
 void onTrackbarSlide( int pos, void *) {
 
-//  g_cap.set( cv::CAP_PROP_POS_FRAMES, pos );
+  g_cap.set( CV_CAP_PROP_POS_FRAMES, pos );
 
   if( !g_dontset )
     g_run = 1;
